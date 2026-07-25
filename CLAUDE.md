@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Medet Ospanov
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Medet Ospanov, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,70 +10,75 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** Medet Ospanov, MD, MSc PH
+- **Location:** Astana, Kazakhstan (open to hybrid, full remote, or international advisory roles without relocation; also open to relocation for the right role)
+- **Languages:** Kazakh (native), Russian (full professional), English (professional working proficiency), Turkish (professional working proficiency)
+- **CV language:** English (default; a Russian-language version may be needed separately for Kazakhstan-market-specific vacancies - flag this when a posting is clearly domestic-only)
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed full-time, CEO of ACCREDO LLP
+- **LinkedIn headline:** "Physician-turned-healthcare-entrepreneur | Healthcare Quality & JCI Accreditation | AI Automation in Healthcare"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MSc in Public Health** (2009-2011) - Umea International School of Public Health, Sweden
+  - Thesis: "Cost Effectiveness Analysis of Lifestyle Intervention in Primary Health Care"
+  - Topics: Health economics, lifestyle intervention cost-effectiveness
+- **MD, Physician/GP** (2003-2009) - Kazakh National Medical University named S.D. Asfendiyarov
+- **BA in Finance and Management** (2013-2015) - KAZGUU University
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **CEO** (Jul 2017 - Present) - **ACCREDO LLP** (Kazakhstan)
+  - Healthcare quality and JCI/national-standards accreditation consulting for clinic networks, specialized institutions, and Presidential Administration clinics
+  - Builds quality/patient-safety systems designed to run without constant director oversight
+  - Transitioned to full-time focus in Jul 2026; expanding into AI-driven automation products for clinics
+- **Co-Founder & CEO** (Oct 2020 - Jul 2026) - **Mediscan Group** (Astana & Almaty, Kazakhstan)
+  - Built a diagnostic imaging network from zero to 3 branches, ~50 staff, 80%+ equipment utilisation
+  - Revenue mix: 61% OSMS / 39% private; implemented AI-driven automation (Claude Code, n8n, Julius.ai)
+  - Exited operational role and founding shareholder position Jul 2026
+- Earlier roles (2011-2020): Head of Medical Center "Mediker Astana"; Head of Quality Management, Republic Air Ambulance Center JSC; Managing Consultant, SAPA Pro; Chief Manager Clinical Performance Controlling, National Medical Holding JSC; Head of Quality Management, President's Affairs Administration Hospital; Head of Quality Management and Patient Safety, National Research Center for Maternal and Child Health; Expert-Specialist, Quality and Patient Safety Management (same institution) - full detail in `.claude/skills/job-application-assistant/01-candidate-profile.md`
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Healthcare quality management, JCI/national accreditation consulting, patient safety systems (RCA, FMEA, FOCUS-PDCA, tracer methodology)
+- **Secondary:** AI agent development and workflow automation (Claude Code, n8n, Julius.ai), Python, API integration, dashboard prototyping
+- **Domain:** Diagnostic imaging operations, Kazakhstan healthcare regulatory landscape (МЗ РК, ОСМС/ГОБМП, ДМС), AI applications in clinical/administrative management
+- **Software:** Notion, Google Sheets
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+<!-- More Quality Management/Patient Safety certifications pending from Medet - add as received -->
+- **Claude Code in Action** - Anthropic - completed Jun 2026
+- **Claude Code 101** - Anthropic - completed May 2026
+- **Introduction to Claude Cowork** - Anthropic - completed May 2026
+- **Claude 101** - Anthropic - completed May 2026
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Ospanov, M. (2015). Developing drug formularies for the National Medical Holding JSC. International Journal of Risk & Safety in Medicine.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- (none listed yet)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Self-assessment, no formal PI/DISC/MBTI test taken - see 02-behavioral-profile.md for full detail -->
+- **Builder-Delegator** - Builds systems and teams designed to run without the founder's constant oversight, then steps back once self-sustaining
+- **Deliberate decision-maker** - Prefers to weigh decisions rather than react quickly
+- **Strengths:** Founding and scaling organizations from zero, translating quality/accreditation expertise into durable processes, self-directed technical upskilling (AI automation without an engineering team)
+- **Growth areas:** Drained by repetitive processes with no mandate to fix them; frame as a natural pull toward process-improvement roles
+- **Thrives in:** Friendly, team-involved, collaborative atmospheres with ownership over building or fixing a system end-to-end
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building or fixing systems and processes from scratch
+- Applying AI automation to real clinical/administrative healthcare workflows
+- Advisory/strategic work that shapes an organization's direction, not just executes it
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+<!-- Deliberately broad/exploratory search - see 04-job-evaluation.md "Note on scope" -->
+- Healthcare quality & accreditation consulting: hospitals, clinic networks, accreditation bodies
+- Digital health / health-tech: companies building clinical or administrative digital tools
+- Healthcare AI automation: any organization applying AI to clinical/administrative workflows
+- Target role types (unranked, all in scope): Healthcare Quality/Accreditation Advisor, Head of Digital Health, AI Automation Lead (Healthcare), Chief Quality Officer, Healthcare Consulting Partner, Board Advisor (Healthcare/Health-Tech), CEO/Chief-level healthcare roles
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Minimum position level: senior/lead or above - not evaluating junior or individual-contributor-only postings
+- Salary expectations: not set yet at this exploratory stage - to be discussed per specific opportunity
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
@@ -128,7 +130,7 @@ Both documents MUST be compiled and visually inspected via the Read tool on the 
 - [ ] **CV is exactly 2 pages** - not 1, not 3
 - [ ] **No orphaned `\cventry` titles** - a job/education title must never sit at the bottom of a page with its bullets spilling to the next page. Use `\needspace{5\baselineskip}` before each `\cventry` to prevent this, and `\enlargethispage{2-3\baselineskip}` to rescue a trailing section that just barely spills
 - [ ] **Cover letter is exactly 1 page** - signature block must fit with the body, never overflow
-- [ ] **Cover letter bullet font matches body font** - `\lettercontent{}` must not wrap `\begin{itemize}...\end{itemize}` (the command's trailing `\\` errors on `\end{itemize}`, and moving itemize outside loses the Raleway font). Standard pattern: close `\lettercontent{}`, then wrap the list in `{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont \begin{itemize}...\end{itemize}\par}`
+- [ ] **Cover letter bullet font matches body font** - `\lettercontent{}` must not wrap `\begin{itemize}...\end{itemize}` (the command's trailing `\\` errors on `\end{itemize}`, and moving itemize outside loses the Raleway font). Standard pattern: close `\lettercontent{}`, then wrap the list in `{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/, BoldFont = Raleway-Bold]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont \begin{itemize}...\end{itemize}\par}` - the `BoldFont` option is required or `\textbf{}` bullet labels silently render non-bold
 
 ### ATS & keyword verification (CV)
 ATS parsers read the PDF's embedded text layer, not the rendered page. Extract it with `pdftotext -layout` and verify what a parser sees. `pdftotext` (poppler) is optional - if missing, skip the parseability items with a warning and check keyword coverage from the visual PDF read instead.

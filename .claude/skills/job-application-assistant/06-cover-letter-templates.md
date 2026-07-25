@@ -44,7 +44,7 @@ The `\lettercontent{}` macro appends `\\` to its argument. This breaks when the 
 ```latex
 \lettercontent{Here is how my experience maps:}
 
-{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/, BoldFont = Raleway-Bold]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
 \begin{itemize}
     \item ...
 \end{itemize}\par}
@@ -54,6 +54,8 @@ The `\lettercontent{}` macro appends `\\` to its argument. This breaks when the 
 ```
 
 The font wrapper is mandatory — if you just move `\begin{itemize}` outside `\lettercontent{}` without the `\fontspec` block, bullets render in the default body font (Lato) and visually mismatch the rest of the letter.
+
+**The `BoldFont = Raleway-Bold` option is mandatory too.** Without it, `\textbf{Label:}` inside this font block silently falls back to the regular Raleway-Medium weight (LaTeX emits `Font shape ... undefined, using ... instead` rather than erroring), so bold bullet labels quietly stop being bold. `OpenFonts/fonts/raleway/Raleway-Bold.otf` ships in the repo specifically for this.
 
 ## Document Structure
 
@@ -90,7 +92,7 @@ The font wrapper is mandatory — if you just move `\begin{itemize}` outside `\l
 
 \lettercontent{[Body paragraph - most relevant experience, introducing the bullet list]}
 
-{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/, BoldFont = Raleway-Bold]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
 \begin{itemize}
     \item [Concrete achievement/skill 1]
     \item [Concrete achievement/skill 2]

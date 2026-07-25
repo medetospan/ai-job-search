@@ -116,11 +116,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Healthcare Quality/Accreditation Advisor, Chief Quality Officer, and Consulting Partner roles:**
+> Physician (MD) and healthcare quality leader with 20+ years spanning JCI/national-standards accreditation consulting, patient-safety systems, and diagnostic network operations. Led one of Kazakhstan's earliest JCI accreditation processes for a 500-bed hospital, then built and ran ACCREDO LLP, a healthcare quality consulting practice serving clinic networks, specialized institutions, and Presidential Administration clinics. Designs quality systems - policies, audits, corrective actions - as functioning management tools that run without constant director oversight, not compliance paperwork.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Head of Digital Health / AI Automation Lead / Board Advisor (health-tech) roles:**
+> Physician-turned-healthcare-entrepreneur who co-founded and led Mediscan Group from zero to a 3-clinic diagnostic imaging network with 50+ staff and 80%+ equipment utilisation. Combines deep healthcare quality and regulatory expertise (JCI accreditation, Kazakhstan's ОСМС/ГОБМП system) with hands-on AI automation: builds and ships own AI agents and workflow automation (Claude Code, n8n, Julius.ai) for clinical and administrative operations, without a dedicated engineering team. Brings a rare combination of clinical/regulatory credibility and practical AI implementation experience to digital health strategy.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

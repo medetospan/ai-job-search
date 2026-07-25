@@ -44,9 +44,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Healthcare quality management, JCI/national accreditation consulting, patient safety systems (RCA, FMEA, FOCUS-PDCA, tracer methodology), building self-sustaining organizational processes, diagnostic imaging operations, Kazakhstan healthcare regulatory landscape (МЗ РК, ОСМС/ГОБМП, ДМС)
+**Moderate match areas:** AI agent development and workflow automation (Claude Code, n8n, Julius.ai) applied to clinical/administrative workflows, digital health strategy, board/advisory-level healthcare governance, Python/API integration, dashboard prototyping
+**Weak match areas:** Formal software engineering (no professional dev background - automation skills are self-taught and applied), markets/regulatory environments outside Kazakhstan and the wider CIS/Central Asia region (industry knowledge, not necessarily local regulatory detail)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -58,9 +58,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Healthcare quality/accreditation advisory and consulting, Chief Quality Officer-type roles, healthcare organization founding/leadership, JCI accreditation project leadership
+**Moderate:** Digital health director/strategy roles, AI automation lead roles in healthcare, board/advisory positions in health-tech, broader C-level roles in healthcare organizations
+**Entry-level:** Pure software/AI engineering roles, roles outside healthcare with no quality/operations angle
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -75,9 +75,9 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Astana-based, hybrid, or fully remote: PASS
+- International advisory/board role with no relocation required: PASS
+- Requires relocation: PASS, but flag for discussion - relocation is not required but is acceptable for the right role, given ACCREDO is an ongoing base in Astana
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -90,20 +90,31 @@ Does this role advance career goals and contain tasks that energize?
 | 40-59 | Decent job but doesn't build toward career goals |
 | 0-39 | Dead end or backwards step |
 
-**Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+**Career goals (currently exploratory - see note below):**
+- Get a wide view of the market at the intersection of healthcare quality/accreditation, digital health, and AI automation in medicine - not narrowing to one role type yet
+- Explore the range from advisory/board positions to full leadership roles, to calibrate what's actually available before committing to a direction
+- Longer-term: a role (advisory, board, or leadership) that combines healthcare quality/accreditation expertise with AI-driven automation
+
+**Note on scope:** The candidate is deliberately running a broad, exploratory search across role types (advisor, director, lead, C-level, board) rather than optimizing for one category. Score Career Alignment against the *cluster* of target roles below, not a single ideal role - a posting that fits any one of these directions can score well.
+
+**Target role types (all in scope, no ranking):**
+1. Healthcare Quality/Accreditation Advisor
+2. Head of Digital Health / Digital Health Director
+3. AI Automation Lead (Healthcare)
+4. Chief Quality Officer
+5. Healthcare Consulting Partner
+6. Board Advisor - Healthcare / Health-Tech
+7. CEO or other Chief-level role at a healthcare organization
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: building or fixing systems/processes from scratch, JCI/quality-standard implementation, applying AI automation to real clinical/administrative workflows, collaborative team-based work, advisory/strategic work that shapes direction
+- Tasks that drain: repetitive processes with no mandate or path to fix them, purely transactional/siloed work with little team engagement
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Runs ACCREDO LLP as an ongoing full-time consulting practice based in Astana; not searching out of urgent financial need, can be selective
+- **Flexibility**: Open to Astana-based, hybrid, fully remote, or international advisory roles without relocation; also open to relocation for the right role. Minimum position level: not below a senior/lead or higher role - not evaluating junior or individual-contributor-only postings
+- **Professional development**: Wants to deepen the AI-automation-in-healthcare angle alongside the existing quality/accreditation expertise
 
 ### 6. Salary Benchmark (Optional)
 

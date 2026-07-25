@@ -11,10 +11,10 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **hh.kz (HeadHunter Kazakhstan)** - largest general job board for Kazakhstan/CIS (no CLI shipped yet - use `/add-portal` to scaffold one, or WebSearch fallback below)
+- **linkedin.com/jobs** - LinkedIn job listings (filter: Kazakhstan / Astana, and international remote/advisory); also covered by `linkedin-search` CLI
+- **indeed.com** - broader international board, useful for remote/international advisory roles (WebSearch fallback until a CLI exists)
+- (optional) health-tech-specific boards or company career pages for target organizations
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -23,53 +23,58 @@ Secondary (company career pages via Google):
 
 Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+**Note on scope:** This is a deliberately broad, exploratory search across the candidate's full target-role cluster (see `04-job-evaluation.md`), not a single ideal role. All four priority tiers below are in scope every run of `/scrape` - do not treat Priority 3/4 as "only if Priority 1/2 comes up empty."
 
-These match your strongest and most desired career direction.
+### Priority 1: Healthcare Quality / Accreditation Advisor & Chief Quality Officer
 
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match the strongest and most direct career fit.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:hh.kz "healthcare quality" OR "JCI accreditation" Astana OR Kazakhstan
+site:hh.kz "Chief Quality Officer" OR "директор по качеству"
+site:linkedin.com/jobs "Healthcare Quality Advisor" OR "Chief Quality Officer" Kazakhstan
+site:linkedin.com/jobs "JCI accreditation" consultant
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Digital Health Director & AI Automation Lead (Healthcare)
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+These match the domain expertise + AI automation combination.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:hh.kz "digital health" OR "цифровое здравоохранение" Kazakhstan
+site:linkedin.com/jobs "Head of Digital Health" OR "Digital Health Director"
+site:linkedin.com/jobs "AI Automation Lead" healthcare OR clinical
+indeed.com "AI automation" healthcare director OR lead
+```
+
+### Priority 3: Healthcare Consulting Partner & Board/Advisor Roles
+
+Adjacent roles that combine healthcare and strategic/advisory work.
+
+```
+site:linkedin.com/jobs "Healthcare Consulting" partner Kazakhstan OR remote
+site:linkedin.com/jobs "Board Advisor" healthcare OR "health-tech"
+site:linkedin.com/jobs "non-executive director" healthcare
+```
+
+### Priority 4: Broader Chief-Level / CEO Healthcare Roles
+
+Wider net for leadership roles across healthcare organizations.
+
+```
+site:hh.kz "CEO" OR "генеральный директор" клиника OR медицинский центр
+site:linkedin.com/jobs "CEO" healthcare Kazakhstan OR "Central Asia"
+site:linkedin.com/jobs "Chief Executive" clinic network OR diagnostic
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the location fits the candidate's stated flexibility (Astana-based, hybrid, full remote, or international advisory without relocation; open to relocation for the right role - see `01-candidate-profile.md`). Define acceptable areas:
+- Astana and surrounding areas (base location)
+- Almaty and other major Kazakhstan cities (acceptable - Mediscan/ACCREDO network cities)
+- Fully remote or international advisory/board roles requiring no relocation (acceptable)
+- Roles requiring relocation (borderline - not required, but flag for discussion rather than auto-reject; not a deal-breaker)
+- (no "too far" tier - relocation is not a hard deal-breaker for this search)
 
 ## Date Filter
 
