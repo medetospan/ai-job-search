@@ -20,11 +20,11 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **LinkedIn headline:** "Physician-turned-healthcare-entrepreneur | Healthcare Quality & JCI Accreditation | AI Automation in Healthcare"
 
 ### Education
-- **MSc in Public Health** (2009-2011) - Umea International School of Public Health, Sweden
+- **MSc in Public Health** (2009-2011) - Umeå University, Sweden
   - Thesis: "Cost Effectiveness Analysis of Lifestyle Intervention in Primary Health Care"
   - Topics: Health economics, lifestyle intervention cost-effectiveness
 - **MD, Physician/GP** (2003-2009) - Kazakh National Medical University named S.D. Asfendiyarov
-- **BA in Finance and Management** (2013-2015) - KAZGUU University
+- **Bachelor of Economics and Business** (specialty: Management) (2013-2015) - KAZGUU University; GPA 3.02
 
 ### Professional Experience
 - **CEO** (Jul 2017 - Present) - **ACCREDO LLP** (Kazakhstan)
@@ -44,17 +44,27 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Software:** Notion, Google Sheets
 
 ### Certifications
-<!-- More Quality Management/Patient Safety certifications pending from Medet - add as received -->
 - **Claude Code in Action** - Anthropic - completed Jun 2026
 - **Claude Code 101** - Anthropic - completed May 2026
 - **Introduction to Claude Cowork** - Anthropic - completed May 2026
 - **Claude 101** - Anthropic - completed May 2026
 
+**JCI / Accreditation Training:** Certificate of Training as Trainer, "Accreditation Surveyors in Health Care Facilities" - MoH RK / AGI Consulting, Astana 2016; National Accreditation Instructor - Republican Center for Health Development, Astana 2014; 2012 JCI Europe Executive Briefings - Rome; four JCI workshops (Facilities Management & Safety, Policy & Procedure, Quality Improvement, Infection Control) - National Medical Holding, Astana 2012
+
+**Risk Management & Governance:** Risk Management & Continuous Improvement in a Medical Organization - Osaka/Tsukuba/Tokyo Universities, Japan 2013; Fundamentals of Corporate Governance, Internal Control and Risk Management - Dostyk Advisory, Astana 2013; Internal Control and Risk Management - Dostyk Advisory, Astana 2013
+
+**Healthcare Management & Quality:** Healthcare Management master-class (Ono Academic College partnership) - Presidential Affairs Administration Medical Center, Astana 2014; Quality Management & Patient Safety conference - Presidential Affairs Administration, Astana 2014; Healthcare Marketing seminar - Astana 2014
+
+**Research & Other:** "Introduction to Research Methods in the Era of the Internet" - Nazarbayev University / WHO Collaborating Centre / University of Pittsburgh, 2012; Balanced Scorecard (BSC) in Enterprise Management seminar - INTALEV, Astana 2012; Observership Program - Acibadem Healthcare Group, Istanbul 2012; Occupational Safety and Labor Protection Control course - Astana 2012; IELTS Academic, Overall Band 6.5 - 2013
+
+Full detail (exact dates, hours, certificate numbers) in `.claude/skills/job-application-assistant/01-candidate-profile.md`.
+
 ### Publications
 - Ospanov, M. (2015). Developing drug formularies for the National Medical Holding JSC. International Journal of Risk & Safety in Medicine.
 
 ### Awards
-- (none listed yet)
+- Honorary Certificate (Құрмет грамотасы), 2012 - Ministry of Health of the Republic of Kazakhstan, for personal contribution to public healthcare
+- "Best Manager" 2012 - National Medical Holding JSC company-wide competition
 
 ### Behavioral Profile
 <!-- Self-assessment, no formal PI/DISC/MBTI test taken - see 02-behavioral-profile.md for full detail -->

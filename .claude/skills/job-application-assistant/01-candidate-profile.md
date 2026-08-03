@@ -22,9 +22,9 @@ framework_version: 1.0.0
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| MSc, Public Health | 2009-2011 | Umea International School of Public Health, Sweden | Thesis: "Cost Effectiveness Analysis of Lifestyle Intervention in Primary Health Care" |
+| MSc, Public Health | 2009-2011 | Umeå University, Sweden | Thesis: "Cost Effectiveness Analysis of Lifestyle Intervention in Primary Health Care" |
 | MD, Physician/GP | 2003-2009 | Kazakh National Medical University named S.D. Asfendiyarov | General medicine |
-| BA, Finance and Management | 2013-2015 | KAZGUU University | Finance, management |
+| Bachelor of Economics and Business (specialty: Management) | 2013-2015 | KAZGUU University | GPA 3.02; specialty code 5B050700-Management; coursework spanned finance, marketing, and management |
 
 ## Professional Experience
 
@@ -98,19 +98,47 @@ Astana, Kazakhstan
 - API integration, dashboard prototyping, Notion, Google Sheets
 
 ## Certifications
-<!-- Anthropic certs confirmed from LinkedIn; more Quality Management/Patient Safety certifications to be added -->
+<!-- Anthropic certs confirmed from LinkedIn; Quality Management/Patient Safety certifications below added from source diplomas/certificates in documents/diplomas/ -->
 - Claude Code in Action - Anthropic (Jun 2026)
 - Claude Code 101 - Anthropic (May 2026)
 - Introduction to Claude Cowork - Anthropic (May 2026)
 - Claude 101 - Anthropic (May 2026)
-- [Additional Quality Management / Patient Safety certifications - list pending, to be added]
+
+**JCI / Accreditation Training**
+- Certificate of Training as Trainer, "Training of Accreditation Surveyors in Health Care Facilities" - Ministry of Health and Social Development of the Republic of Kazakhstan, jointly with American Gulf International (AGI Consulting), in partnership with the World Bank and the Republican Center for Health Development - Astana (3-7 Oct 2016, 54 hours; valid until 7 Oct 2019)
+- National Accreditation Instructor Certificate (inspector training for accrediting healthcare organizations) - Republican Center for Health Development (RCHD) - Astana (16-20 Jun 2014, 54 hours)
+- 2012 JCI Europe Executive Briefings - Joint Commission International - Rome, Italy (27-28 Sep 2012)
+- Facilities Management and Safety Workshop - Joint Commission International, held at National Medical Holding - Astana (10-14 Dec 2012)
+- Policy and Procedure Workshop (40 hours) - Joint Commission International, held at National Medical Holding - Astana (3-7 Sep 2012)
+- Quality Improvement Workshop (40 hours) - Joint Commission International, held at National Medical Holding - Astana (27-31 Aug 2012)
+- Infection Control Workshop - Joint Commission International, held at National Medical Holding - Astana (30 Jul-3 Aug 2012)
+
+**Risk Management & Corporate Governance**
+- Risk Management & Continuous Improvement in a Medical Organization - Osaka University, University of Tsukuba, and Tokyo University, Japan (certified jointly by Inteconference Ltd, Intl. Certificate No. 4580, and Osaka University Hospital) (27 Oct-7 Nov 2013)
+- Fundamentals of Corporate Governance, Internal Control and Risk Management - Dostyk Advisory, Cert. DA2013007 - Astana (13-19 Aug 2013)
+- Internal Control and Risk Management - Dostyk Advisory, Cert. DA2013131 - Astana (4-5 Dec 2013)
+
+**Healthcare Management & Quality (Presidential Affairs Administration Medical Center)**
+- Healthcare Management master-class, delivered via Ono Academic College (Israel) partnership - Hospital of the Medical Center of the President's Affairs Administration of RK, Astana (2-6 Dec 2014, 54 academic hours)
+- "Modern Aspects of Quality Management of Medical Care and Patient Safety in the Republic of Kazakhstan" - scientific-practical conference, Medical Center of the President's Affairs Administration - Astana (7 Nov 2014, 7 academic hours)
+- Healthcare Marketing seminar, Cert. No. 0558 - Center for Medical Technologies and Information Systems JSC - Astana (22-23 Dec 2014, 16 academic hours)
+
+**Research Methods & Continuing Education**
+- "Introduction to Research Methods in the Era of the Internet" training workshop - Center for Life Sciences at Nazarbayev University, jointly with WHO Collaborating Centre (Pittsburgh), University of Pittsburgh, and Central Asian Journal of Global Health, supported by USAID - Kazakhstan (9-13 Jul 2012)
+- "Balanced Scorecard (BSC) in Enterprise Management" seminar - INTALEV - Astana (Nov 2012)
+- Observership Program - Acibadem Healthcare Group - Istanbul, Turkey (16-20 Jan 2012)
+- Occupational Safety and Labor Protection Control course, No. 0454 - TOO "PARASAT-OQU" training center, under the Committee for Control and Social Protection / Ministry of Labor and Social Protection RK - Astana (registered 6 Dec 2012)
+
+**Language**
+- IELTS Academic - Overall Band 6.5 (Listening 6.0, Reading 6.5, Writing 5.5, Speaking 7.0) - British Council/IDP/University of Cambridge ESOL (12 Oct 2013)
 
 ## Publications
 <!-- List peer-reviewed publications, if any -->
 1. Ospanov, M. (Dec 2015). Developing drug formularies for the National Medical Holding JSC. International Journal of Risk & Safety in Medicine.
 
 ## Awards
-- (none listed yet)
+- Honorary Certificate (Құрмет грамотасы), 2012 - Ministry of Health of the Republic of Kazakhstan - awarded to "Медет Әмірамзанұлы Оспанов" (Russian: Медет Амирамзанович Оспанов) for personal contribution to public healthcare and dedicated service, on the occasion of Medical Worker's Day; signed by Minister С. Қайырбекова
+- "Best Manager" (Үздік менеджер) 2012 - company-wide competition award, National Medical Holding JSC; signed by Е. Біртанов, Board Chairman
 
 ## References
 Available upon request.

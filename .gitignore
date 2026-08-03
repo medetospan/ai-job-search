@@ -68,6 +68,9 @@ documents/postings/**
 # quote what was submitted, and set out the candidate's weak points.
 documents/interview/**
 !documents/**/.gitkeep
+# Personal output files (e.g. vacancy rankings) and Word lock files landing directly in documents/
+documents/*.docx
+documents/~$*
 
 # Personal job search tracking
 job_search_tracker.csv
