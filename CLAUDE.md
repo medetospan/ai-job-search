@@ -29,6 +29,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ### Professional Experience
 - **CEO** (Jul 2017 - Present) - **ACCREDO LLP** (Kazakhstan)
   - Healthcare quality and JCI/national-standards accreditation consulting for clinic networks, specialized institutions, and Presidential Administration clinics
+  - Led 9 healthcare organizations to national and/or JCI accreditation (full list in `01-candidate-profile.md`), including two Presidential Affairs Administration hospitals and the National Research Center for Maternal and Child Health
   - Builds quality/patient-safety systems designed to run without constant director oversight
   - Transitioned to full-time focus in Jul 2026; expanding into AI-driven automation products for clinics
 - **Co-Founder & CEO** (Oct 2020 - Jul 2026) - **Mediscan Group** (Astana & Almaty, Kazakhstan)

@@ -35,6 +35,17 @@ Kazakhstan
 - Transitioned to full-time focus on ACCREDO in July 2026, after stepping back from Mediscan's operations and founding shareholder role
 - Expanding into AI-driven automation products for clinics in Kazakhstan (Claude Code, n8n, Julius.ai)
 
+**Accredited organizations (national and/or JCI standards), sourced from hh.kz resume entry, 2026-08-04:**
+- JSC "Central Clinical Hospital" of the Medical Center of the Presidential Affairs Administration of RK, Almaty - accredited to national and international JCI standards
+- JSC "Kazakh Research Institute of Eye Diseases" (Order of the Badge of Honour), Almaty, with branches in Shymkent and Astana - accredited to national standards
+- LLP Medical Center "Marriage and Family", Taraz - accredited to national standards
+- SCPE "City Children's Infectious Diseases Hospital", Astana akimat - accredited to national standards
+- SCE on the REM "Ekibastuz Maternity Hospital", Pavlodar region health department - accredited to national standards
+- SCE on the REM "City Perinatal Center", Zhambyl region health department, Taraz - accredited to national standards
+- JSC "National Research Center for Maternal and Child Health", Astana - accredited to national and international standards
+- JSC "National Research Center of Oncology and Transplantology", Astana - accredited to national standards, with trial JCI accreditation
+- RSE on the REM "Hospital of the Medical Center of the Presidential Affairs Administration of RK", Astana - accredited to national and international standards
+
 ### Co-Founder & CEO - Mediscan Group (Oct 2020 - Jul 2026)
 Astana & Almaty, Kazakhstan
 - Built a diagnostic imaging network from zero: opened the first MRI center in Astana in 2020, scaled to 3 branches across two cities
