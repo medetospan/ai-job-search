@@ -108,6 +108,15 @@ Full detail (exact dates, hours, certificate numbers) in `.claude/skills/job-app
 
 **Important:** When mentioning agentic coding or AI tooling in CVs/cover letters, explicitly reference **Claude Code** by name.
 
+## Conventions learned from live applications
+- **Organization names follow the CV's language.** Russian CV: official Russian names with translated legal forms (ТОО / АО), e.g. АО «Национальный Медицинский Холдинг»; the brands **Mediscan Group** and **ACCREDO** stay in Latin. English CV: official English names. MSc institution is **Umeå University** (not "Umea International School of Public Health"); the KAZGUU degree is "Bachelor of Economics and Business (Management)", not "Finance and Management".
+- **Stay at profile wording.** Don't amplify ("personally", "directly with ministries"). Never claim direct PET-CT, nuclear-medicine or radiopharmaceutical licensing experience; state it as a gap plus a demonstrated ability to learn a new modality's regulation (precedent: MRI/CT launch at Mediscan).
+- **Unconfirmed names stay out of documents.** If the addressee or a target clinic's city isn't confirmed, use a generic salutation ("Dear Sir or Madam" / «Уважаемый руководитель») with a TODO comment in the `.tex`, and put the open question in the tracker.
+- **Match the offer to the target.** For a formal employment role, letters must not offer consulting/advisory work.
+- **LaTeX quirks.** `~` is a non-breaking space ("~50" prints as "50"; use `\textasciitilde`). If a Russian CV overflows its 2 pages after additions, raise `geometry` scale (0.85 -> 0.88) before cutting content. Letter dates: `\today`; Russian letters use a genitive-month macro. Rebuild PDFs on the day of sending.
+- **Git and privacy.** `origin` is a public fork and application files are gitignored (`cv/main_*.tex`, `cover_letters/Cover_*.tex`, `job_search_tracker.csv`). Commit only profile/template files, by explicit path (never `git add -A`); never commit other people's data. Before scripted batch edits of gitignored files, copy the originals to a dated folder outside the repo, since git cannot restore them.
+- **Word versions.** There is no pandoc/LibreOffice on this Mac; Word CVs are built from the `.tex` with python-docx (real bullets, no tables/headers/images) and their page count must be checked in Word.
+
 ## Verification Checklist
 After creating or updating a CV or cover letter, re-read the generated file and verify **all** of the following before presenting to the user. Report the results as a pass/fail checklist.
 
