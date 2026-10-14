@@ -48,7 +48,7 @@ Kazakhstan
 
 ### Co-Founder & CEO - Mediscan Group (Oct 2020 - Jul 2026)
 Astana & Almaty, Kazakhstan
-- Built a diagnostic imaging network from zero: opened the first MRI center in Astana in 2020, scaled to 3 branches across two cities
+- Built a diagnostic imaging network from zero: opened the first MRI center in Astana in 2020, scaled to 4 branches across two cities
 - Grew to ~50 staff and 80%+ equipment utilisation
 - Revenue mix: 61% OSMS (mandatory health insurance) + 39% private
 - Implemented AI-driven automation for reporting, analytics, and operations (Claude Code, n8n, Julius.ai)

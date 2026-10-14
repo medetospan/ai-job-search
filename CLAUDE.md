@@ -32,8 +32,9 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
   - Led 9 healthcare organizations to national and/or JCI accreditation (full list in `01-candidate-profile.md`), including two Presidential Affairs Administration hospitals and the National Research Center for Maternal and Child Health
   - Builds quality/patient-safety systems designed to run without constant director oversight
   - Transitioned to full-time focus in Jul 2026; expanding into AI-driven automation products for clinics
+  - Built and deployed AI agents (Claude Code, n8n) into ACCREDO's own business operations: CRM agents (Aina, Saulem-AI), an HR agent, marketing processes (website, SEO/AEO/GEO), automated accounting reports, and a healthcare-law AI legal agent - a hands-on operational AI track, not just exploratory interest
 - **Co-Founder & CEO** (Oct 2020 - Jul 2026) - **Mediscan Group** (Astana & Almaty, Kazakhstan)
-  - Built a diagnostic imaging network from zero to 3 branches, ~50 staff, 80%+ equipment utilisation
+  - Built a diagnostic imaging network from zero to 4 branches, ~50 staff, 80%+ equipment utilisation
   - Revenue mix: 61% OSMS / 39% private; implemented AI-driven automation (Claude Code, n8n, Julius.ai)
   - Exited operational role and founding shareholder position Jul 2026
 - Earlier roles (2011-2020): Head of Medical Center "Mediker Astana"; Head of Quality Management, Republic Air Ambulance Center JSC; Managing Consultant, SAPA Pro; Chief Manager Clinical Performance Controlling, National Medical Holding JSC; Head of Quality Management, President's Affairs Administration Hospital; Head of Quality Management and Patient Safety, National Research Center for Maternal and Child Health; Expert-Specialist, Quality and Patient Safety Management (same institution) - full detail in `.claude/skills/job-application-assistant/01-candidate-profile.md`
@@ -101,6 +102,7 @@ Full detail (exact dates, hours, certificate numbers) in `.claude/skills/job-app
 1. User provides a job posting (URL or text)
 2. **Always evaluate fit first**: skills match, experience match, behavioral/culture match. Present this assessment to the user before proceeding.
 3. If good fit: create targeted CV (`cv/main_<company>_<role>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
+   - **Informal/warm-channel lead** (forwarded via a colleague or association, employer identity unconfirmed): still produce the LaTeX CV as normal, but write the cover letter as a markdown draft addressed to the actual intermediary, not a compiled PDF to an unverified HR contact. Keep unconfirmed facts out of both documents; list them as open questions in the deliverable instead.
 4. **Verify both documents** (see Verification Checklist below)
 5. Prepare interview talking points based on the role requirements and your strengths
 
@@ -137,7 +139,7 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 
 ### Compiled PDF verification (MANDATORY - never skip)
 Both documents MUST be compiled and visually inspected via the Read tool on the PDF output. "Looks fine in the .tex" is not acceptable - LaTeX page-break decisions are unpredictable. Iterate until these all pass:
-- [ ] CV compiled with **lualatex** (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors). Cover letter compiled with **xelatex** (cover.cls requires fontspec).
+- [ ] CV compiled with **lualatex** (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors). Cover letter compiled with **xelatex** (cover.cls requires fontspec). Neither binary is on PATH — invoke via `~/Library/TinyTeX/bin/universal-darwin/lualatex` / `.../xelatex`.
 - [ ] **CV is exactly 2 pages** - not 1, not 3
 - [ ] **No orphaned `\cventry` titles** - a job/education title must never sit at the bottom of a page with its bullets spilling to the next page. Use `\needspace{5\baselineskip}` before each `\cventry` to prevent this, and `\enlargethispage{2-3\baselineskip}` to rescue a trailing section that just barely spills
 - [ ] **Cover letter is exactly 1 page** - signature block must fit with the body, never overflow

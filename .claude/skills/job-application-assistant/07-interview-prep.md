@@ -19,7 +19,7 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 ### 1. Founding Mediscan Group (Entrepreneurship, 0-to-1 building)
 **S:** In 2020, there was no existing diagnostic imaging infrastructure to build on - the goal was to open Astana's first MRI center from zero, in a market with an established mandatory-insurance (OSMS) reimbursement system and private-pay competition.
 **T:** As co-founder and CEO, responsible for building the clinical, operational, and commercial infrastructure from scratch: staffing, equipment utilisation, payer mix, and quality standards.
-**A:** Opened the first MRI center in Astana, then scaled to 3 branches across Astana and Almaty. Built processes aligned with JCI international quality standards from day one, and layered in AI-driven automation (Claude Code, n8n, Julius.ai) for reporting, analytics, and operations as the network grew.
+**A:** Opened the first MRI center in Astana, then scaled to 4 branches across Astana and Almaty. Built processes aligned with JCI international quality standards from day one, and layered in AI-driven automation (Claude Code, n8n, Julius.ai) for reporting, analytics, and operations as the network grew.
 **R:** Grew to ~50 staff and 80%+ equipment utilisation, with a 61% OSMS / 39% private revenue mix. Exited the operational and founding-shareholder role in July 2026 once the network was self-sustaining.
 **Use for:** "Tell me about a time you built something from nothing", "Describe your entrepreneurial experience", "How do you approach scaling an organization?"
 
@@ -31,7 +31,7 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 **Use for:** "Tell me about leading change in a resistant environment", "Describe a complex project you led", "How do you implement new standards in a legacy system?"
 
 ### 3. Stepping back from Mediscan to focus on ACCREDO (Delegation and systems-building)
-**S:** By mid-2026, Mediscan had grown into a stable 3-clinic network with established processes, while ACCREDO, the original consulting practice, had a growing pipeline of accreditation and AI-automation work that needed full-time attention.
+**S:** By mid-2026, Mediscan had grown into a stable 4-clinic network with established processes, while ACCREDO, the original consulting practice, had a growing pipeline of accreditation and AI-automation work that needed full-time attention.
 **T:** Decide whether to keep running Mediscan's day-to-day operations personally, or step back and hand it to the systems and team already built.
 **A:** Deliberately built Mediscan's policies, procedures, audits, and corrective-action processes as functioning management tools designed to work without the founder's constant oversight, over several years - not a last-minute handoff.
 **R:** Stepped back from Mediscan's operations and founding shareholder role in July 2026, confident the network could run on the systems already in place, freeing up full-time focus for ACCREDO.

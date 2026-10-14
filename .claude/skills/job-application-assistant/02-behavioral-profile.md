@@ -21,7 +21,7 @@ Medet Ospanov's profile is based on self-assessment (no formal PI/DISC/MBTI test
 
 ## Strongest Behaviors
 - **Delegation through process, not through absence:** 9+ years building quality/patient-safety systems (policies, audits, corrective actions) designed as functioning management tools that keep running without the director hovering over them.
-- **Founder-to-operator transition:** Built Mediscan from zero to a 3-clinic, ~50-staff network, then deliberately stepped back from day-to-day operations and the founding shareholder role once the system was self-sustaining (Jul 2026), to focus on ACCREDO full-time.
+- **Founder-to-operator transition:** Built Mediscan from zero to a 4-clinic, ~50-staff network, then deliberately stepped back from day-to-day operations and the founding shareholder role once the system was self-sustaining (Jul 2026), to focus on ACCREDO full-time.
 - **Self-directed technical upskilling:** Picked up AI agent development and workflow automation (Claude Code, n8n, Julius.ai) without a dedicated engineering team, and applies it directly to clinical/administrative operations.
 
 ## How You Work Best
